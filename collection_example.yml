@@ -1,0 +1,5 @@
+---
+- name: Installing webserver using collection that uses a custom module
+  hosts: all
+  roles:
+  - role: arunp.my_test_collection.apache_setup
